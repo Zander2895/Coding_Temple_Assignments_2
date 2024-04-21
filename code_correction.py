@@ -1,8 +1,8 @@
 number = int(input("Enter a number: "))
 
 if number > 0:
-    print("The number is positive.")
+    print("The number is positive. ")
 elif number == 0:
-    print("The number is zero.")
+    print("The number is zero. ")
 elif number < 0:
-    print("The number is negative.")
+    print("The number is negative. ")
