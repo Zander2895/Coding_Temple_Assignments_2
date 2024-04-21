@@ -25,10 +25,11 @@ elif greatest_num  > middle_num and smallest_num < greatest_num:
 
 if smallest_num == middle_num:
     print("There are two equal numbers. " + str(smallest_num))
-    if smallest_num == greatest_num:
-        print("There are two equal numbers. " + str(smallest_num))
-    if middle_num == greatest_num:
-        print("There are two equal numbers. " + str(middle_num))
-    if smallest_num == middle_num and smallest_num == greatest_num:
+elif smallest_num == greatest_num:
+    print("There are two equal numbers. " + str(smallest_num))
+elif middle_num == greatest_num:
+    print("There are two equal numbers. " + str(middle_num))
+elif smallest_num == middle_num and smallest_num == greatest_num:
         print("All three are equal. " + str(smallest_num))
-    
+else:
+    print("Two numbers are equal and the largest is. " + str(greatest_num))
