@@ -2,10 +2,10 @@ smallest_num = int(input("Enter the first number:"))
 middle_num = int(input("Enter the second number:"))
 greatest_num = int(input("Enter the third number:"))
 
-if smallest_num < middle_num and smallest_num < greatest_num:
+if smallest_num <= middle_num and smallest_num <= greatest_num:
     print("The first number is the smallest number. " + str(smallest_num))
 elif smallest_num < middle_num and smallest_num > greatest_num:
-    print("The first number is the midddle number. " + str(smallest_num))  
+    print("The first number is the midddle number. " + str(smallest_num))
 elif smallest_num  > middle_num and smallest_num > greatest_num:
     print("The first number is the greatest number. " + str(smallest_num))
 
@@ -22,4 +22,3 @@ elif greatest_num > middle_num and smallest_num > greatest_num:
     print("The third number is the midddle number. " + str(greatest_num))
 elif greatest_num  > middle_num and smallest_num < greatest_num:
     print("The third number is the greatest number. " + str(greatest_num))
-    #HELP I NEED HELP

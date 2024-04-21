@@ -1,6 +1,6 @@
-smallest_num = int(input("Enter the first number:"))
-middle_num = int(input("Enter the second number:"))
-greatest_num = int(input("Enter the third number:"))
+smallest_num = int(input("Enter the first number: "))
+middle_num = int(input("Enter the second number: "))
+greatest_num = int(input("Enter the third number: "))
 
 if smallest_num <= middle_num and smallest_num <= greatest_num:
     print("The first number is the smallest number. " + str(smallest_num))
